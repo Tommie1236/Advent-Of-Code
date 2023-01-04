@@ -1,14 +1,14 @@
 # Day 1 of 2015
 
-1. I started by copying my input data to a text file ([data.txt](day-1/data.txt)).
-2. After that I created a python script to put the data in a variable so i can use it. ([data_format.py](day-1/data_format.py))
+1. I started by copying my input data to a text file ([data.txt](data.txt)).
+2. After that I created a python script to put the data in a variable so i can use it. ([data_format.py](data_format.py))
 	- Create a variable to store the data `data = ''`
 	- Then open a file and store the data in a variable:
 		```py
 		with open('data.txt', 'r' as d:
 		data = d.read()
 		```
-3. Then I created the main script for part 1 of the puzzle ([part1.py](day-1/part1.py))
+3. Then I created the main script for part 1 of the puzzle ([part1.py](part1.py))
 	- Import the data from the `data_format.py` script:
 		```py
 		from data_format import data
